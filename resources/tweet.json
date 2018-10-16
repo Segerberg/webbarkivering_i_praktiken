@@ -1,0 +1,225 @@
+{
+	"contributors": null,
+	"truncated": false,
+	"text": "RT @edsu: .@asegerberg has added a twarc utility to pull the media URLs out of a tweet JSON file and write them as a WARC file using @webre\u2026",
+	"is_quote_status": false,
+	"in_reply_to_status_id": null,
+	"id": 1041051018472173569,
+	"favorite_count": 0,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"retweeted": false,
+	"coordinates": null,
+	"entities": {
+		"symbols": [
+		],
+		"user_mentions": [
+			{
+				"id": 14331818,
+				"indices": [
+					3,
+					8
+				],
+				"id_str": "14331818",
+				"screen_name": "edsu",
+				"name": "Ed Summers"
+			},
+			{
+				"id": 50584019,
+				"indices": [
+					11,
+					22
+				],
+				"id_str": "50584019",
+				"screen_name": "asegerberg",
+				"name": "Andreas Segerberg @segerberg@digipres.club"
+			}
+		],
+		"hashtags": [
+		],
+		"urls": [
+		]
+	},
+	"in_reply_to_screen_name": null,
+	"in_reply_to_user_id": null,
+	"retweet_count": 12,
+	"id_str": "1041051018472173569",
+	"favorited": false,
+	"retweeted_status": {
+		"contributors": null,
+		"truncated": true,
+		"text": ".@asegerberg has added a twarc utility to pull the media URLs out of a tweet JSON file and write them as a WARC fil\u2026 https://t.co/s6ruOMyvJw",
+		"is_quote_status": false,
+		"in_reply_to_status_id": null,
+		"id": 1041048416225292288,
+		"favorite_count": 27,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"retweeted": false,
+		"coordinates": null,
+		"entities": {
+			"symbols": [
+			],
+			"user_mentions": [
+				{
+					"id": 50584019,
+					"indices": [
+						1,
+						12
+					],
+					"id_str": "50584019",
+					"screen_name": "asegerberg",
+					"name": "Andreas Segerberg @segerberg@digipres.club"
+				}
+			],
+			"hashtags": [
+			],
+			"urls": [
+				{
+					"url": "https://t.co/s6ruOMyvJw",
+					"indices": [
+						117,
+						140
+					],
+					"expanded_url": "https://twitter.com/i/web/status/1041048416225292288",
+					"display_url": "twitter.com/i/web/status/1\u2026"
+				}
+			]
+		},
+		"in_reply_to_screen_name": null,
+		"in_reply_to_user_id": null,
+		"retweet_count": 12,
+		"id_str": "1041048416225292288",
+		"favorited": false,
+		"user": {
+			"follow_request_sent": false,
+			"has_extended_profile": true,
+			"profile_use_background_image": true,
+			"default_profile_image": false,
+			"id": 14331818,
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+			"verified": true,
+			"translator_type": "regular",
+			"profile_text_color": "000000",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/968243242172059648/X-plvcp__normal.jpg",
+			"profile_sidebar_fill_color": "000000",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/KCVMLqoUma",
+							"indices": [
+								0,
+								23
+							],
+							"expanded_url": "http://inkdroid.org",
+							"display_url": "inkdroid.org"
+						}
+					]
+				},
+				"description": {
+					"urls": [
+						{
+							"url": "https://t.co/uNbSDrHZf6",
+							"indices": [
+								105,
+								128
+							],
+							"expanded_url": "https://social.coop/@edsu",
+							"display_url": "social.coop/@edsu"
+						}
+					]
+				}
+			},
+			"followers_count": 5596,
+			"profile_sidebar_border_color": "000000",
+			"id_str": "14331818",
+			"profile_background_color": "9AE4E8",
+			"listed_count": 399,
+			"is_translation_enabled": false,
+			"utc_offset": null,
+			"statuses_count": 31583,
+			"description": "I work at @umd_mith, study web archives at @iSchoolUMD & work on @documentnow // I'm also on Mastodon at https://t.co/uNbSDrHZf6",
+			"friends_count": 3500,
+			"location": "Silver Spring, MD",
+			"profile_link_color": "0084B4",
+			"profile_image_url": "http://pbs.twimg.com/profile_images/968243242172059648/X-plvcp__normal.jpg",
+			"following": false,
+			"geo_enabled": true,
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/14331818/1512246895",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+			"screen_name": "edsu",
+			"lang": "en",
+			"profile_background_tile": false,
+			"favourites_count": 14492,
+			"name": "Ed Summers",
+			"notifications": false,
+			"url": "https://t.co/KCVMLqoUma",
+			"created_at": "Tue Apr 08 12:43:41 +0000 2008",
+			"contributors_enabled": false,
+			"time_zone": null,
+			"protected": false,
+			"default_profile": false,
+			"is_translator": false
+		},
+		"geo": null,
+		"in_reply_to_user_id_str": null,
+		"possibly_sensitive": false,
+		"lang": "en",
+		"created_at": "Sat Sep 15 19:37:38 +0000 2018",
+		"in_reply_to_status_id_str": null,
+		"place": null
+	},
+	"user": {
+		"follow_request_sent": false,
+		"has_extended_profile": true,
+		"profile_use_background_image": true,
+		"default_profile_image": false,
+		"id": 50584019,
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "333333",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/1719046251/image_normal.jpg",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"entities": {
+			"description": {
+				"urls": [
+				]
+			}
+		},
+		"followers_count": 105,
+		"profile_sidebar_border_color": "C0DEED",
+		"id_str": "50584019",
+		"profile_background_color": "C0DEED",
+		"listed_count": 3,
+		"is_translation_enabled": false,
+		"utc_offset": null,
+		"statuses_count": 144,
+		"description": "Digital Curator at the city of Gothenburg Archives , lecturer at University of Gothenburg archival science, FAI board member",
+		"friends_count": 162,
+		"location": "Gothenburg, Sweden\n",
+		"profile_link_color": "1DA1F2",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/1719046251/image_normal.jpg",
+		"following": false,
+		"geo_enabled": true,
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"screen_name": "asegerberg",
+		"lang": "en",
+		"profile_background_tile": false,
+		"favourites_count": 133,
+		"name": "Andreas Segerberg @segerberg@digipres.club",
+		"notifications": false,
+		"url": null,
+		"created_at": "Thu Jun 25 07:45:34 +0000 2009",
+		"contributors_enabled": false,
+		"time_zone": null,
+		"protected": false,
+		"default_profile": true,
+		"is_translator": false
+	},
+	"geo": null,
+	"in_reply_to_user_id_str": null,
+	"lang": "en",
+	"created_at": "Sat Sep 15 19:47:59 +0000 2018",
+	"in_reply_to_status_id_str": null,
+	"place": null
+}

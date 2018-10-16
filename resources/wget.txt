@@ -1,0 +1,5 @@
+### En och endast en sida ###
+wget -p  --domains fai.nu  --warc-file='fai_single_page' https://fai.nu
+
+### Rekursiv nedladdning inom en domän ###
+wget --recursive --no-clobber --page-requisites --domains fai.nu --no-parent --warc-file='fai' https://fai.nu

@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Webbarkivering i praktiken</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+        <section class="title">
+        
+          <h2>Webbarkivering i praktiken</h2>
+          <br>
+          <p style="font-size: smaller;">
+            Andreas Segerberg<br>
+            <a href="http://regionarkivet.se">regionarkivet.se</a>
+			<br>
+            andreas.segerberg@arkivnamnden.goteborg.se
+			<br>
+            <br>
+            <br>
+            <br>
+            Presentationen: <a href="#">#</a>
+          </p>
+        </section>
+ 
+  	
+        <section>
+          <h3>Agenda</h3>
+          <ul style="font-size: 22pt;">
+            <li>Webbsidor och sociala medier som records och digitala objekt</li>
+            <li class='fragment'>Hårdvara</li>
+            <li class='fragment'>Insamling
+			<ul>
+			<li class="fragment">Arkivformat</li>
+			<li class="fragment">Mjukvara
+			<ul>
+			<li class="fragment">Installation</li>
+			<li class="fragment">Konfiguration</li>  </ul>
+			</li>
+			
+			</ul>
+			</li>
+            <li class='fragment'>Åtkomst
+			<ul class=fragment">
+			<li class ="fragment">Mjukvara
+			<ul>
+			<li>Installation</li>
+			<li>Konfiguration</li>
+			</ul>	
+			</li>
+			</ul>
+			</li>
+          </ul>
+        </section>
+
+		
+			 <section>
+		<h3>Webben - vad är det?</h3>
+		<ul style="font-size: 14pt">	
+			<li>Klient - Server | Meddelande + Nyttolast</li>
+			<li>HTML, Javascript, CSS, Bilder, Multimedia och mycket mer....</li>		
+		</ul>
+		
+        <img class="plain" height="60%" width="60%" src="images/client-server.gif">
+        <p style="font-size: 8pt">
+          <a href="http://site2site.github.io/lectures/week2/client-server.html">Designed by Troy Conrad Therrien & Christopher Barley</a>
+          </p>
+        </section>
+				 <section>
+		<h3>HTTP(S)</h3>
+		<img class="plain" height="50%" width="50%" src="images/browser-bar-2.png">
+		
+		<ul style="font-size: 14pt">	
+			<li>200 OK</li>
+			<li>301 Moved Permanently</li>
+			<li>404 Not Found </li>
+			<li>500 Internal Server Error </li>				
+		</ul>
+		
+        <img class="plain" height="40%" width="40%" src="images/client-server-2.gif">
+        <p style="font-size: 8pt">
+          <a href="http://site2site.github.io/lectures/week2/client-server.html">Designed by Troy Conrad Therrien & Christopher Barley</a>
+          </p>
+		  <p style="font-size: 8pt">
+          <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">List of HTTP status codes</a>
+          </p>
+        </section>
+
+		<section>
+		<h3>Social media som ett record</h3>
+		
+          <a href="http://shawnw.io/presentations/EAW18-EthicsEphemeralSocialMediaData.pdf"> <img class="plain" height="60%" width="60%" src="images/sm_record.png"></a>
+          <p style="font-size: 14pt; text-align: left; margin-left: 15%; margin-right: 15%;">
+          1. Walker, Shawn. (2018). <a href="http://shawnw.io/presentations/EAW18-EthicsEphemeralSocialMediaData.pdf"><em>THE EPHEMERALITY OF SOCIAL MEDIA, THE ETHICS OF SOCIAL MEDIA CHANGE</em></a><br>
+          </p>
+        </section>
+		<section>
+		<a href="resources/tweet.json"> <img class="plain" height="150%" width="150%" src="images/tweet_profile_json.PNG"></a>
+		
+		</section>
+		
+		 <section>
+		<h3>Hårdvara</h3>
+           <img class="plain" height="60%" width="60%" src="images/pi_3.png">
+		  
+        </section>
+		 <section>
+		<h3>Virtuella Maskiner</h3>
+		   <img class="plain" height="10%" width="10%" src="images/virtualbox_logo.png">
+		   <br>
+           <img class="plain" height="90%" width="90%" src="images/virtualBox_screenshot.png">	  
+        </section>
+				 <section>
+		<h3>Maskiner i <i class="fa fa-cloud"></i>1</h3>
+		   <a href="https://console.cloud.google.com/cloud-resource-manager"><img class="plain" height="100%" width="100%" src="images/cloud_shell.png"></a>
+			<i class="fab fa-aws"></i>
+        </section>
+		
+		<section>
+		<h3>Insamling</h3>
+		<table>
+		<thead>
+		<tr>
+		<th>Verktyg</th>
+		<th>Tillämpning</th>
+		<th>Resurser</th>
+		
+		</tr>
+		</thead>
+		<tbody style="font-size:20pt">
+		<tr class='fragment'>
+		<td><a href="https://www.gnu.org/software/wget/">Wget</a></td>
+		<td><i class="fa fa-align-right"></td>
+		<td><a href="https://www.gnu.org/software/wget/manual/wget.html"><i class="fa fa-book"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/internetarchive/heritrix3">Heritrix</a></td>
+		<td><i class="fa fa-align-right"></td>
+		<td><a href="https://github.com/internetarchive/heritrix3/wiki"><i class="fa fa-book"></i></a> <a href="https://builds.archive.org/job/Heritrix-3/lastStableBuild/org.archive.heritrix%24heritrix/"><i class="fa fa-download"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/webrecorder/pywb">Pywb</a></td>
+		<td><i class="fa fa-align-right"/> <i class="fa fa-twitter"> <i class="fa fa-facebook"> <i class="fa fa-instagram"></td>
+		<td><a href="https://pywb.readthedocs.io/en/latest/"><i class="fa fa-book"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/webrecorder/webrecorder">Webrecorder</a></td>
+		<td><i class="fa fa-align-right"> <i class="fa fa-twitter"> <i class="fa fa-facebook"> <i class="fa fa-instagram"></td>
+		<td><a href="https://guide.webrecorder.io/"><i class="fa fa-book"></i></a> <a href="https://webrecorder.io/"><i class="fa fa-sign-in"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/internetarchive/brozzler">Brozzler</a></td>
+		<td><i class="fa fa-align-right"> <i class="fa fa-twitter"> <i class="fa fa-facebook"> <i class="fa fa-instagram"> </td>
+		<td><a href=""><i class="fa fa-book"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/N0taN3rd/Squidwarc">Squidwarc<a></td>
+		<td><i class="fa fa-align-right"> <i class="fa fa-twitter"> <i class="fa fa-facebook"> <i class="fa fa-instagram"> </td>
+		<td><a href="https://n0tan3rd.github.io/Squidwarc/"><i class="fa fa-book"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/peterk/warcworker">Warcworker<a></td>
+		<td><i class="fa fa-align-right"> <i class="fa fa-twitter"> <i class="fa fa-facebook"> <i class="fa fa-instagram"> </td>
+		<td><a href="https://n0tan3rd.github.io/Squidwarc/"><i class="fa fa-book"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/DocNow/twarc/blob/master/README_sv_se.md">Twarc<a></td>
+		<td><i class="fa fa-twitter"> </td>
+		<td></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://gwu-libraries.github.io/sfm-ui/">Social Feed Manager <a></td>
+		<td><i class="fa fa-twitter"></i> <i class="fa fa-flickr"></i> </td>
+		<td><a href="https://sfm.readthedocs.io/en/latest/"><i class="fa fa-book"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/Segerberg/kurbits-rpi">Kurbits <a></td>
+		<td><i class="fa fa-twitter"></i> </td>
+		<td></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://www.httrack.com/">HTTrack <a></td>
+		<td><i class="fa fa-align-right"> </i> </td>
+		<td><a href="https://www.httrack.com/html/index.html"><i class="fa fa-book"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="http://warcreate.com/">WarCreate <a></td>
+		<td><i class="fa fa-align-right"> </i> </td>
+		<td></td>
+		</tr>
+		
+		</tbody>
+		</table>		
+        </section>
+		
+		<section>
+		<h3>Arkivformat</h3>
+		<img class="plain" height="30%" width="30%" src="images/wget_folders.png">
+		
+        </section>
+		<section>
+		<h3>WARC</h3>
+		<a href="resources/fai_main_page.warc"> <img class="plain" height="60%" width="60%" src="images/warc_record.png"></a>
+		
+        </section>
+		<section>
+		<h3>WGET (Enstaka sidor)</h3>
+		<script src="https://asciinema.org/a/w6IhzdHPkWXDjM0ttlqddEFIw.js" id="asciicast-w6IhzdHPkWXDjM0ttlqddEFIw" async></script>
+        </section>
+		<section>
+		<h3>WGET (Hel Domän)</h3>
+		<script src="https://asciinema.org/a/7yMT2nP4jjgQULwNR1uUMFkXl.js" id="asciicast-7yMT2nP4jjgQULwNR1uUMFkXl" async></script>
+        </section>
+		<section>
+		<h3>WGET Resultat</h3>
+	    <table>
+		<tr>
+		<td><p style='font-size:14pt'>Facebook </p>
+		<a href='http://192.168.14.139:8080/wget/20181016114829/https://www.facebook.com/arkivochinformationsforvaltning/'> <img class="plain"  src="images/wget_fb.png"></a></td>
+		<td><p style='font-size:14pt'>fai.nu </p>
+		<a href='http://192.168.14.139:8080/wget/20181016114001/https://fai.nu/'> <img class="plain"  src="images/wget_fai.png"></a></td>
+		</tr>
+		
+		</table>
+        </section>
+		
+		<section>
+		<h3>Heritrix Installation och start</h3>
+		<script src="https://asciinema.org/a/SRc0SYjvM4oJw2CPHS9bdCmZC.js" id="asciicast-SRc0SYjvM4oJw2CPHS9bdCmZC" async></script>
+		<a href='https://192.168.14.139:8443' target='blank'> <img class="plain" height="20%" width="20%" src="images/heritrix.gif"> </a>
+        </section>
+		
+		<section>
+		<h3>Heritrix resultat</h3>
+		<table>
+		<tr>
+		<td><p style='font-size:14pt'>Facebook </p>
+		<a href='http://192.168.14.139:8080/heritrix/20181016081215/https://www.facebook.com/arkivochinformationsforvaltning/'> <img class="plain"  src="images/heritrix_fb.png"></a></td>
+		<td><p style='font-size:14pt'>arkiv400.se </p>
+		<a href='http://192.168.14.139:8080/heritrix/20181016122343/https://www.arkiv400.se/'> <img class="plain"  src="images/arkiv400_heritrix.png"></a></td>
+		</tr>
+		</table>
+        </section>
+		
+		<section>
+		<h3>Pywb installation och start</h3>
+		<script src="https://asciinema.org/a/kJE0r2AzpV8KtLj6bzVkp2cZO.js" id="asciicast-kJE0r2AzpV8KtLj6bzVkp2cZO" async></script>
+		<p style="font-size:14pt"><a href='http://192.168.14.139:8080/demo/record/'> Pywb record! </a></p>
+        </section>
+		<section>
+		<h3>Webrecorder</h3>
+		<a href='https://www.webrecorder.io'> <img class="plain" height="100%" width="100%" src="images/webrecorder.png"> </a>
+        </section>
+		<section>
+		<h3>Squidwarc Installation</h3>
+		<script src="https://asciinema.org/a/ugbF6IhwZ5RKwfGblrgDdipWS.js" id="asciicast-ugbF6IhwZ5RKwfGblrgDdipWS" async></script>
+        </section>
+		<section>
+		<h3>Squidwarc Konfiguration</h3>
+		<script src="https://asciinema.org/a/PIM0eGpKdqG69eaSIhxDA6VjU.js" id="asciicast-PIM0eGpKdqG69eaSIhxDA6VjU" async></script>
+        </section>
+		<section>
+		<h3>Warcworker</h3>
+		<iframe data-src="http://192.168.14.139:5555/" width="1024" height="800"></iframe>	
+        </section>
+		
+		<section>
+		<h3>Åtkomst</h3>
+		<table>
+		<thead>
+		<tr>
+		<th>Verktyg</th>
+		<th>Resurser</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td><a href="https://github.com/iipc/openwayback/wiki">Open Wayback <a></td>
+		<td><a href="https://search.maven.org/search?q=g:org.netpreserve.openwayback%20AND%20a:openwayback-dist"><i class="fa fa-download"></i></a></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/iipc/openwayback/wiki">Pywb <a></td>
+		<td></td>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/webrecorder/webrecorderplayer-electron">Webrecorder player <a></td>
+		<td><a href="https://github.com/webrecorder/webrecorderplayer-electron/releases/tag/v1.5.0"><i class="fa fa-download"></i></a></td>
+		</tr>
+		</tbody>
+		</table>
+		</section>
+		<section>
+		<h1>FRÅGOR?</h1>
+		</section>
+		<section>
+		<h1>TACK</h1>
+		</section>
+		
+		
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+        history: true,
+        controls: false,
+		progress: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

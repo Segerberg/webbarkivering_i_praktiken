@@ -1,0 +1,924 @@
+WARC/1.0
+WARC-Type: warcinfo
+Content-Type: application/warc-fields
+WARC-Date: 2018-10-12T10:47:22Z
+WARC-Record-ID: <urn:uuid:81fb45bf-0aa7-483f-bfec-723173205d5c>
+WARC-Filename: fai_main_page.warc
+WARC-Block-Digest: sha1:RWWXIASWDX4LIKPQLOK5S2DJH2T3JFV6
+Content-Length: 262
+
+software: Wget/1.16 (linux-gnu)
+format: WARC File Format 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+robots: off
+wget-arguments: "-e" "robots=off" "--warc-file=fai_main_page" "https://fai.nu" "--no-warc-compression" 
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Target-URI: https://fai.nu/
+Content-Type: application/http;msgtype=request
+WARC-Date: 2018-10-12T10:47:22Z
+WARC-Record-ID: <urn:uuid:9e4d09c0-74d0-44c9-a4aa-75c98db0375b>
+WARC-IP-Address: 31.216.35.29
+WARC-Warcinfo-ID: <urn:uuid:81fb45bf-0aa7-483f-bfec-723173205d5c>
+WARC-Block-Digest: sha1:M7PETD64TLUDUMDWO37M36RSVQMDH4NB
+Content-Length: 104
+
+GET / HTTP/1.1
+User-Agent: Wget/1.16 (linux-gnu)
+Accept: */*
+Host: fai.nu
+Connection: Keep-Alive
+
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:eae5926d-4621-46e9-adf8-67a5a15dd5d4>
+WARC-Warcinfo-ID: <urn:uuid:81fb45bf-0aa7-483f-bfec-723173205d5c>
+WARC-Concurrent-To: <urn:uuid:9e4d09c0-74d0-44c9-a4aa-75c98db0375b>
+WARC-Target-URI: https://fai.nu/
+WARC-Date: 2018-10-12T10:47:22Z
+WARC-IP-Address: 31.216.35.29
+WARC-Block-Digest: sha1:37S6W4EBSCDJ4XREV444F6DMVRBUXGIZ
+WARC-Payload-Digest: sha1:4ZKQRZH7XA6AEP5VTJGLWQNXTKGL7QLK
+Content-Type: application/http;msgtype=response
+Content-Length: 69062
+
+HTTP/1.1 200 OK
+Date: Fri, 12 Oct 2018 10:47:23 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.32
+X-Pingback: https://fai.nu/xmlrpc.php
+Link: <https://fai.nu/wp-json/>; rel="https://api.w.org/", <https://fai.nu/>; rel=shortlink
+Cache-Control: max-age=172800
+Expires: Sun, 14 Oct 2018 10:47:23 GMT
+X-Powered-By: PleskLin
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+10c10
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="WordPress 4.9.8" /> <!-- leave this for stats -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="fb:app_id" content="365408336916217" /> 
+
+<title>Startsidan - FAI - Föreningen för arkiv och informationsförvaltning</title>
+
+<link rel="stylesheet" href="https://fai.nu/wp-content/themes/fai/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="FAI &#8211; Föreningen för arkiv och informationsförvaltning RSS Feed" href="https://fai.nu/feed/" />
+<link rel="pingback" href="https://fai.nu/xmlrpc.php" />
+   
+
+<!-- This site is optimized with the Yoast SEO plugin v8.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://fai.nu/" />
+<meta property="og:locale" content="sv_SE" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Startsidan - FAI - Föreningen för arkiv och informationsförvaltning" />
+<meta property="og:url" content="https://fai.nu/" />
+<meta property="og:site_name" content="FAI - Föreningen för arkiv och informationsförvaltning" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/fai.nu\/","name":"FAI - F\u00f6reningen f\u00f6r arkiv och informationsf\u00f6rvaltning","potentialAction":{"@type":"SearchAction","target":"https:\/\/fai.nu\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="FAI - Föreningen för arkiv och informationsförvaltning &raquo; Startsidan kommentarsflöde" href="https://fai.nu/startsidan/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fai.nu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpfb-css'  href='//fai.nu/wp-content/plugins/wp-filebase/wp-filebase.css?t=1461258876&#038;ver=3.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://fai.nu/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='acx_slideshow_front_style-css'  href='https://fai.nu/wp-content/plugins/simple-slideshow-manager/css/style.css?v=2.3.1&#038;ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://fai.nu/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<script type='text/javascript' src='https://fai.nu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://fai.nu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://fai.nu/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1'></script>
+<link rel='https://api.w.org/' href='https://fai.nu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fai.nu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://fai.nu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='shortlink' href='https://fai.nu/' />
+<link rel="alternate" type="application/json+oembed" href="https://fai.nu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffai.nu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://fai.nu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffai.nu%2F&#038;format=xml" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
+	Share: "Dela",
+	Save: "Spara",
+	Subscribe: "Prenumerera",
+	Email: "E-post",
+	Bookmark: "Bokmärk",
+	ShowAll: "Visa alla",
+	ShowLess: "Visa färre",
+	FindServices: "Hitta tjänst(er)",
+	FindAnyServiceToAddTo: "Hitta direkt en tjänst att lägga till",
+	PoweredBy: "Drivs av",
+	ShareViaEmail: "Dela via e-post",
+	SubscribeViaEmail: "Prenumerera via e-post",
+	BookmarkInYourBrowser: "Lägg till som bokmärke i din webbläsare",
+	BookmarkInstructions: "Tryck Ctrl+D eller \u2318+D för att lägga till denna sida som bokmärke",
+	AddToYourFavorites: "Lägg till i dina favoriter",
+	SendFromWebOrProgram: "Skicka från valfri e-postadress eller e-postprogram",
+	EmailProgram: "E-postprogram",
+	More: "Mer&#8230;"
+};
+
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+<script type="text/javascript" id="acx_js_api">
+function call_acx_y_player(frame_id, func,id,u_id, args)
+{
+	frame_id_dpl = frame_id+u_id;
+	var frame ='#'+frame_id+u_id+id;
+	var frame_id_yt='#'+frame_id+u_id+'_frame_'+id;
+	var imageid = '#acx_image_'+u_id+'_'+id;
+	var vedio_stat_field ='#acx_hidden_id_'+u_id;
+	var palybuttn = '.acx_dis_yplay_but_'+u_id;
+	var pausebuttn = '.acx_dis_ypause_but_'+u_id;
+	var newvalue = 0;
+	if(func=="playVideo")
+	{
+		
+		var img_yt_thumbnail_element = ".acx_ssm_yt_"+u_id+"_"+id;
+		var img_yt_thumbnail_h = jQuery(img_yt_thumbnail_element).height();  
+		var img_yt_thumbnail_w = jQuery(img_yt_thumbnail_element).width();  
+
+		var img_stop = '.img_stop_'+u_id;
+		var img_play = '.img_play_'+u_id;
+
+		jQuery(img_stop).hide();
+		jQuery(img_play).hide();
+
+
+		var img_prev = '.img_prev_'+u_id;
+		var img_next = '.img_next_'+u_id;
+
+		jQuery(img_prev).hide();
+		jQuery(img_next).hide();
+
+		jQuery(imageid).hide();
+		jQuery(frame).fadeIn('slow');
+
+		var framecode="<iframe id='youtube_url' src='https://www.youtube.com/embed/"+frame_id+"?autoplay=1&controls=0&wmode=opaque&cc_load_policy=1&rel=0&iv_load_policy=3&loop=0' width='"+img_yt_thumbnail_w+"' height='"+img_yt_thumbnail_h+"'></iframe>";
+
+		jQuery(frame_id_yt).html(framecode);
+
+		jQuery(palybuttn).hide();
+		jQuery(pausebuttn).show();
+		jQuery(vedio_stat_field).val('play');
+	}
+	else if(func=="stopVideo")
+	{
+		var img_stop = '.img_stop_'+u_id;
+		var img_play = '.img_play_'+u_id;
+
+		jQuery(img_stop).show();
+		jQuery(img_play).show();
+
+		var img_prev = '.img_prev_'+u_id;
+		var img_next = '.img_next_'+u_id;
+
+		jQuery(img_prev).show();
+		jQuery(img_next).show();
+
+		jQuery(frame).hide();
+
+		var framecode="";
+		jQuery(frame_id_yt).html(framecode);
+
+		jQuery(imageid).fadeIn('slow');
+		jQuery(palybuttn).show();
+		jQuery(pausebuttn).hide();
+		jQuery(vedio_stat_field).val('stop');
+		}
+		if(!frame_id) return;
+		if(frame_id_dpl.id) frame_id_dpl = frame_id_dpl.id;
+		else if(typeof jQuery != "undefined" && frame_id_dpl instanceof jQuery && frame_id_dpl.length) frame_id = frame_id_dpl.get(0).id;
+		if(!document.getElementById(frame_id_dpl)) return;
+		args = args || [];
+		/*Searches the document for the IFRAME with id=frame_id*/
+		var all_iframes = document.getElementsByTagName("iframe");
+		for(var i=0, len=all_iframes.length; i<len; i++){
+		if(all_iframes[i].id == frame_id_dpl || all_iframes[i].parentNode.id == frame_id){
+		/*The index of the IFRAME element equals the index of the iframe in
+		the frames object (<frame> . */
+		window.frames[i].postMessage(JSON.stringify({
+		"event": "command",
+		"func": func,
+		"args": args,
+		"id": frame_id
+		}), "*");
+		}
+	}
+}
+function acx_play_vimeo_video(vedio_id,id,u_id)
+{
+	var img_vm_thumbnail_element = ".acx_ssm_vm_"+u_id+"_"+id;
+	var img_vm_thumbnail_h = jQuery(img_vm_thumbnail_element).height();  
+	var img_vm_thumbnail_w = jQuery(img_vm_thumbnail_element).width(); 
+
+	var iframe_id = "#player_"+vedio_id+u_id;
+	var iframe = jQuery(iframe_id)[0],
+	player = iframe;
+	var frame ='#'+vedio_id+u_id+id;
+	var frame_id_vimeo ='#'+vedio_id+u_id+"_frame_"+id;
+	var imageid = '#acx_image_vimeo_'+u_id+'_'+id;
+	var vedio_stat_field ='#acx_hidden_id_'+u_id;
+	var palybuttn = '.acx_dis_vplay_but_'+u_id;
+	var pausebuttn = '.acx_dis_vpause_but_'+u_id;
+
+	var img_stop = '.img_stop_'+u_id;
+	var img_play = '.img_play_'+u_id;
+
+	jQuery(img_stop).hide();
+	jQuery(img_play).hide();
+
+	var img_prev = '.img_prev_'+u_id;
+	var img_next = '.img_next_'+u_id;
+
+	jQuery(img_prev).hide();
+	jQuery(img_next).hide();
+
+	jQuery(vedio_stat_field).val('play');
+	jQuery(imageid).hide();
+	jQuery(frame).fadeIn('slow');
+
+	var framecode="<iframe src='https://player.vimeo.com/video/"+vedio_id+"?player_id=player&autoplay=1&title=0&byline=0&portrait=0&loop=0&autopause=0' width='"+img_vm_thumbnail_w+"' height='"+img_vm_thumbnail_h+"'></iframe>";
+
+	jQuery(frame_id_vimeo).html(framecode);
+
+	jQuery(palybuttn).hide();
+	jQuery(pausebuttn).show();
+}
+function acx_stop_vimeo_video(vedio_id,id,u_id)
+{
+	var iframe_id = "#player_"+vedio_id+u_id;
+	var iframe = jQuery(iframe_id)[0],
+	player = iframe;
+	var frame_id_vimeo ='#'+vedio_id+u_id+"_frame_"+id;
+	var frame ='#'+vedio_id+u_id+id;
+	var imageid = '#acx_image_vimeo_'+u_id+'_'+id;
+	var vedio_stat_field ='#acx_hidden_id_'+u_id;
+	var palybuttn = '.acx_dis_vplay_but_'+u_id;
+	var pausebuttn = '.acx_dis_vpause_but_'+u_id;
+	var framecode="";
+	jQuery(frame_id_vimeo).html(framecode);
+
+	var img_stop = '.img_stop_'+u_id;
+	var img_play = '.img_play_'+u_id;
+
+	jQuery(img_stop).show();
+	jQuery(img_play).show();
+
+	var img_prev = '.img_prev_'+u_id;
+	var img_next = '.img_next_'+u_id;
+
+	jQuery(img_prev).show();
+	jQuery(img_next).show();
+
+	jQuery(frame).hide();
+	jQuery(imageid).fadeIn('slow');
+	jQuery(palybuttn).show();
+	jQuery(pausebuttn).hide();
+	jQuery(vedio_stat_field).val('stop');
+}
+</script>
+
+<!-- Google Universal Analytics for WordPress v2.4.2 -->
+
+<script>
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-50503248-1', 'auto');
+
+
+
+
+	ga('set', 'forceSSL', true);
+	ga('send', 'pageview');
+
+</script>
+<!-- Google Universal Analytics for WordPress v2.4.2 - https://wordpress.org/plugins/google-universal-analytics -->
+
+<style>button#responsive-menu-button,#responsive-menu-container{display: none;-webkit-text-size-adjust: 100%}@media screen and (max-width: 767px){#responsive-menu-container{display: block;position: fixed;top: 0;bottom: 0;z-index: 99998;padding-bottom: 5px;margin-bottom: -5px;outline: 1px solid transparent;overflow-y: auto;overflow-x: hidden}#responsive-menu-container .responsive-menu-search-box{width: 100%;padding: 0 2%;border-radius: 2px;height: 50px;-webkit-appearance: none}#responsive-menu-container.push-left,#responsive-menu-container.slide-left{transform: translateX(-100%);-ms-transform: translateX(-100%);-webkit-transform: translateX(-100%);-moz-transform: translateX(-100%)}.responsive-menu-open #responsive-menu-container.push-left,.responsive-menu-open #responsive-menu-container.slide-left{transform: translateX(0);-ms-transform: translateX(0);-webkit-transform: translateX(0);-moz-transform: translateX(0)}#responsive-menu-container.push-top,#responsive-menu-container.slide-top{transform: translateY(-100%);-ms-transform: translateY(-100%);-webkit-transform: translateY(-100%);-moz-transform: translateY(-100%)}.responsive-menu-open #responsive-menu-container.push-top,.responsive-menu-open #responsive-menu-container.slide-top{transform: translateY(0);-ms-transform: translateY(0);-webkit-transform: translateY(0);-moz-transform: translateY(0)}#responsive-menu-container.push-right,#responsive-menu-container.slide-right{transform: translateX(100%);-ms-transform: translateX(100%);-webkit-transform: translateX(100%);-moz-transform: translateX(100%)}.responsive-menu-open #responsive-menu-container.push-right,.responsive-menu-open #responsive-menu-container.slide-right{transform: translateX(0);-ms-transform: translateX(0);-webkit-transform: translateX(0);-moz-transform: translateX(0)}#responsive-menu-container.push-bottom,#responsive-menu-container.slide-bottom{transform: translateY(100%);-ms-transform: translateY(100%);-webkit-transform: translateY(100%);-moz-transform: translateY(100%)}.responsive-menu-open #responsive-menu-container.push-bottom,.responsive-menu-open #responsive-menu-container.slide-bottom{transform: translateY(0);-ms-transform: translateY(0);-webkit-transform: translateY(0);-moz-transform: translateY(0)}#responsive-menu-container,#responsive-menu-container:before,#responsive-menu-container:after,#responsive-menu-container *,#responsive-menu-container *:before,#responsive-menu-container *:after{box-sizing: border-box;margin: 0;padding: 0}#responsive-menu-container #responsive-menu-search-box,#responsive-menu-container #responsive-menu-additional-content,#responsive-menu-container #responsive-menu-title{padding: 25px 5%}#responsive-menu-container #responsive-menu,#responsive-menu-container #responsive-menu ul{width: 100%}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu{display: none}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu.responsive-menu-submenu-open{display: block}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-1 a.responsive-menu-item-link{padding-left: 10%}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-2 a.responsive-menu-item-link{padding-left: 15%}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-3 a.responsive-menu-item-link{padding-left: 20%}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-4 a.responsive-menu-item-link{padding-left: 25%}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-5 a.responsive-menu-item-link{padding-left: 30%}#responsive-menu-container li.responsive-menu-item{width: 100%;list-style: none}#responsive-menu-container li.responsive-menu-item a{width: 100%;display: block;text-decoration: none;padding: 0 5%;position: relative}#responsive-menu-container li.responsive-menu-item a .fa{margin-right: 15px}#responsive-menu-container li.responsive-menu-item a .responsive-menu-subarrow{position: absolute;top: 0;bottom: 0;text-align: center;overflow: hidden}#responsive-menu-container li.responsive-menu-item a .responsive-menu-subarrow.fa{margin-right: 0}button#responsive-menu-button .responsive-menu-button-icon-inactive{display: none}button#responsive-menu-button{z-index: 99999;display: none;overflow: hidden;outline: none}button#responsive-menu-button img{max-width: 100%}.responsive-menu-label{display: inline-block;font-weight: 600;margin: 0 5px;vertical-align: middle}.responsive-menu-label .responsive-menu-button-text-open{display: none}.responsive-menu-accessible{display: inline-block}.responsive-menu-accessible .responsive-menu-box{display: inline-block;vertical-align: middle}.responsive-menu-label.responsive-menu-label-top,.responsive-menu-label.responsive-menu-label-bottom{display: block;margin: 0 auto}button#responsive-menu-button{padding: 0 0;display: inline-block;cursor: pointer;transition-property: opacity, filter;transition-duration: 0.15s;transition-timing-function: linear;font: inherit;color: inherit;text-transform: none;background-color: transparent;border: 0;margin: 0;overflow: visible}.responsive-menu-box{width: 30px;height: 17px;display: inline-block;position: relative}.responsive-menu-inner{display: block;top: 50%;margin-top: -1.5px}.responsive-menu-inner,.responsive-menu-inner::before,.responsive-menu-inner::after{width: 30px;height: 3px;background-color: #FFFFFF;border-radius: 4px;position: absolute;transition-property: transform;transition-duration: 0.15s;transition-timing-function: ease}.responsive-menu-open .responsive-menu-inner,.responsive-menu-open .responsive-menu-inner::before,.responsive-menu-open .responsive-menu-inner::after{background-color: #FFFFFF}button#responsive-menu-button:hover .responsive-menu-inner,button#responsive-menu-button:hover .responsive-menu-inner::before,button#responsive-menu-button:hover .responsive-menu-inner::after,button#responsive-menu-button:hover .responsive-menu-open .responsive-menu-inner,button#responsive-menu-button:hover .responsive-menu-open .responsive-menu-inner::before,button#responsive-menu-button:hover .responsive-menu-open .responsive-menu-inner::after,button#responsive-menu-button:focus .responsive-menu-inner,button#responsive-menu-button:focus .responsive-menu-inner::before,button#responsive-menu-button:focus .responsive-menu-inner::after,button#responsive-menu-button:focus .responsive-menu-open .responsive-menu-inner,button#responsive-menu-button:focus .responsive-menu-open .responsive-menu-inner::before,button#responsive-menu-button:focus .responsive-menu-open .responsive-menu-inner::after{background-color: #FFFFFF}.responsive-menu-inner::before,.responsive-menu-inner::after{content: "";display: block}.responsive-menu-inner::before{top: -7px}.responsive-menu-inner::after{bottom: -7px}button#responsive-menu-button{width: 32px;height: 32px;position: relative;top: 0px;left: 87%}button#responsive-menu-button .responsive-menu-box{color: #FFFFFF}.responsive-menu-open button#responsive-menu-button .responsive-menu-box{color: #FFFFFF}.responsive-menu-label{color: #fff;font-size: 13px;line-height: 13px}button#responsive-menu-button{display: inline-block;transition: transform 0.5s, background-color 1s}#responsive-menu-container{width: 75%;left: 0;transition: transform 0.5s;text-align: left;font-family: 'Calibri';background: #ee5735}#responsive-menu-container #responsive-menu-wrapper{background: #ee5735}#responsive-menu-container #responsive-menu-additional-content{color: #fff}#responsive-menu-container .responsive-menu-search-box{background: #fff;border: 2px solid #dadada;color: #333}#responsive-menu-container .responsive-menu-search-box:-ms-input-placeholder{color: #C7C7CD}#responsive-menu-container .responsive-menu-search-box::-webkit-input-placeholder{color: #C7C7CD}#responsive-menu-container .responsive-menu-search-box:-moz-placeholder{color: #C7C7CD;opacity: 1}#responsive-menu-container .responsive-menu-search-box::-moz-placeholder{color: #C7C7CD;opacity: 1}#responsive-menu-container .responsive-menu-item-link,#responsive-menu-container #responsive-menu-title,#responsive-menu-container .responsive-menu-subarrow{transition: background-color 1s, border-color 1s, color 1s}#responsive-menu-container #responsive-menu-title{background-color: #ee5735;color: #FFFFFF;font-size: 13px;text-align: left}#responsive-menu-container #responsive-menu-title a{color: #FFFFFF;font-size: 13px;text-decoration: none}#responsive-menu-container #responsive-menu-title a:hover{color: #FFFFFF}#responsive-menu-container #responsive-menu-title:hover{background-color: #ee5735;color: #FFFFFF}#responsive-menu-container #responsive-menu-title:hover a{color: #FFFFFF}#responsive-menu-container #responsive-menu-title #responsive-menu-title-image{display: inline-block;vertical-align: middle;max-width: 100%;margin-bottom: 15px}#responsive-menu-container #responsive-menu-title #responsive-menu-title-image img{max-width: 100%}#responsive-menu-container #responsive-menu > li.responsive-menu-item:first-child > a{border-top: 1px solid #ffffff}#responsive-menu-container #responsive-menu li.responsive-menu-item .responsive-menu-item-link{font-size: 13px}#responsive-menu-container #responsive-menu li.responsive-menu-item a{line-height: 44px;border-bottom: 1px solid #ffffff;color: #FFFFFF;background-color: #ee5735;height: 44px}#responsive-menu-container #responsive-menu li.responsive-menu-item a:hover{color: #FFFFFF;background-color: #534d84;border-color: #ffffff}#responsive-menu-container #responsive-menu li.responsive-menu-item a:hover .responsive-menu-subarrow{color: #FFFFFF;border-color: #ffffff;background-color: #534d84}#responsive-menu-container #responsive-menu li.responsive-menu-item a:hover .responsive-menu-subarrow.responsive-menu-subarrow-active{color: #fff;border-color: #3f3f3f;background-color: #3f3f3f}#responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow{right: 0;height: 44px;line-height: 44px;width: 44px;color: #FFFFFF;border-left: 1px solid #ffffff;background-color: #ee5735}#responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active{color: #fff;border-color: #212121;background-color: #212121}#responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active:hover{color: #fff;border-color: #3f3f3f;background-color: #3f3f3f}#responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow:hover{color: #FFFFFF;border-color: #ffffff;background-color: #534d84}#responsive-menu-container #responsive-menu li.responsive-menu-current-item > .responsive-menu-item-link{background-color: #534d84;color: #FFFFFF;border-color: #212121}#responsive-menu-container #responsive-menu li.responsive-menu-current-item > .responsive-menu-item-link:hover{background-color: #534d84;color: #FFFFFF;border-color: #3f3f3f}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item .responsive-menu-item-link{font-family: 'Calibri';font-size: 13px}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a{height: 44px;line-height: 44px;border-bottom: 1px solid #ffffff;color: #FFFFFF;background-color: #ee5735}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a:hover{color: #FFFFFF;background-color: #534d84;border-color: #ffffff}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a:hover .responsive-menu-subarrow{color: #FFFFFF;border-color: #ffffff;background-color: #534d84}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a:hover .responsive-menu-subarrow.responsive-menu-subarrow-active{color: #fff;border-color: #3f3f3f;background-color: #3f3f3f}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow{right: 0;height: 44px;line-height: 44px;width: 44px;color: #FFFFFF;border-left: 1px solid #ffffff;background-color: #ee5735}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active{color: #fff;border-color: #212121;background-color: #212121}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active:hover{color: #fff;border-color: #3f3f3f;background-color: #3f3f3f}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow:hover{color: #FFFFFF;border-color: #ffffff;background-color: #534d84}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-current-item > .responsive-menu-item-link{background-color: #534d84;color: #FFFFFF;border-color: #212121}#responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-current-item > .responsive-menu-item-link:hover{background-color: #534d84;color: #FFFFFF;border-color: #3f3f3f}#navbox, #topnavbox{display: none !important}}</style>		<style type="text/css" id="wp-custom-css">
+			input {
+    width: 260px;
+    height: 25px;
+}
+
+.button{
+	width:150px;
+	height:30px;
+	color:#004468;
+	border:#ffffff;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ input {
+    width: 100%;
+    margin-top: 0;
+  }
+	
+}		</style>
+	
+<!--[if lte IE 6]>		
+  	<style type="text/css">
+	img, div, a, li, span, input, textarea{
+	behavior:url(https://fai.nu/wp-content/themes/fai/iepngfix.htc);
+    }
+	</style>
+	<script type="text/javascript" src="https://fai.nu/wp-content/themes/fai/iepngfix_tilebg.js"></script>
+    <![endif]-->
+<!--[if lte IE 8]>
+<style type="text/css">
+#mobilbox{display:none !important;}
+</style>
+<![endif]-->
+    
+</head>
+
+<body data-rsssl=1 class="home page-template page-template-start page-template-start-php page page-id-66 responsive-menu-slide-left">
+
+<div id="wrapper">
+
+<div id="page">
+	  
+<div id="header">
+ <div id="topnavbox">
+        	<div class="top-menu"><ul id="menu-toppmeny" class="menu"><li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-66 current_page_item menu-item-267"><a href="https://fai.nu/">Startsidan</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="https://fai.nu/kontakta-oss/">Kontakta oss</a></li>
+<li id="menu-item-5440" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5440"><a href="https://forening.foreningshuset.se/fai/loggain">Mina sidor</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="https://fai.nu/summary-in-english/">Summary in english</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://fai.nu/press/">Press</a></li>
+</ul></div>        </div>
+
+
+        <div id="logobox">
+            <a href="https://fai.nu" title="FAI - Föreningen för arkiv och informationsförvaltning"><img src="https://fai.nu/wp-content/themes/fai/images/fai_logo.jpg" alt="FAI - Föreningen för arkiv och informationsförvaltning" width="235" height="112" /> </a>
+        </div>
+ 
+
+       
+	    <div id="sokruta">
+            <div class="search">
+                <form role="search" method="get" id="searchform" action="https://fai.nu/">
+                    <div><label class="screen-reader-text" for="s"></label>
+                        <input type="text" value="" name="s" id="s" />
+                        <input type="submit" id="searchsubmit" value="Sök" />
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>    
+    <div id="navbox">
+        <div class="menu-header"><ul id="menu-huvudmeny" class="menu"><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://fai.nu/mentorprogram/">Mentor</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-33"><a href="https://fai.nu/stipendium/">Priser &#038; stipendier</a>
+<ul class="sub-menu">
+	<li id="menu-item-5507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5507"><a href="https://fai.nu/stipendium/priser/">Priser</a></li>
+	<li id="menu-item-5508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5508"><a href="https://fai.nu/stipendium/stipendier/">Stipendier</a></li>
+</ul>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://fai.nu/medlem/">Medlem</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25"><a href="https://fai.nu/var-verksamhet/">Aktiviteter</a>
+<ul class="sub-menu">
+	<li id="menu-item-1212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1212"><a href="https://fai.nu/var-verksamhet/temadagar/">Temadagar</a></li>
+	<li id="menu-item-1213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1213"><a href="https://fai.nu/var-verksamhet/medlemscafeer/">Medlemscaféer</a></li>
+</ul>
+</li>
+<li id="menu-item-6158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6158"><a href="https://fai.nu/konferens-16-17-oktober-2018/">Konferens</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-31"><a href="https://fai.nu/publikationer/">Publikationer</a>
+<ul class="sub-menu">
+	<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://fai.nu/publikationer/nyhetsbrev/">Nyhetsbrev</a></li>
+	<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="https://fai.nu/publikationer/tidskriften_arkiv/">Tidskriften Arkiv</a></li>
+	<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="https://fai.nu/publikationer/bokutgivning/">Bokutgivning</a></li>
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="https://fai.nu/publikationer/arkivlitteratur/">Annan arkivlitteratur</a></li>
+	<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a title="Arkiv, samhälle och forskning" href="https://fai.nu/publikationer/dokumentarkiv/">ASF</a>
+	<ul class="sub-menu">
+		<li id="menu-item-6348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6348"><a href="https://fai.nu/publikationer/dokumentarkiv/1953-2/">1953-1958</a></li>
+		<li id="menu-item-6382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6382"><a href="https://fai.nu/publikationer/dokumentarkiv/1961-1970/">1961-1970</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30"><a href="https://fai.nu/om-oss/">Om oss</a>
+<ul class="sub-menu">
+	<li id="menu-item-754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-754"><a href="https://fai.nu/om-oss/styrelse/">Styrelse</a></li>
+	<li id="menu-item-755" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-755"><a href="https://fai.nu/om-oss/styrdokument/">Stadgar</a></li>
+	<li id="menu-item-6144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6144"><a href="https://fai.nu/om-oss/personuppgifter/">Personuppgifter</a></li>
+	<li id="menu-item-937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-937"><a href="https://fai.nu/om-oss/arsmote/">Årsmöte</a></li>
+	<li id="menu-item-756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-756"><a href="https://fai.nu/om-oss/foreningens-historia/">Föreningens historia</a></li>
+	<li id="menu-item-757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-757"><a href="https://fai.nu/om-oss/logga-och-profilprodukter/">Profilprodukter</a></li>
+	<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://fai.nu/om-oss/arkivarieyrket/">Arkivarieyrket</a></li>
+	<li id="menu-item-5439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5439"><a href="https://fai.nu/om-oss/arkivpedagogyrket/">Arkivpedagogyrket</a></li>
+	<li id="menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-277"><a href="https://fai.nu/om-oss/registratorsyrket/">Registratorsyrket</a></li>
+	<li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="https://fai.nu/om-oss/samverkan/">Samverkan</a></li>
+	<li id="menu-item-852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-852"><a href="https://fai.nu/om-oss/internationellt/">Internationellt</a></li>
+</ul>
+</li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://fai.nu/natverk/">Nätverk</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26"><a href="https://fai.nu/pa-gang/">På gång</a>
+<ul class="sub-menu">
+	<li id="menu-item-5448" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5448"><a href="https://fai.nu/category/aktuellt/">Aktuellt</a></li>
+	<li id="menu-item-205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-205"><a href="https://fai.nu/category/kalendarium/">Kalendarium</a></li>
+	<li id="menu-item-203" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-203"><a href="https://fai.nu/category/konferenser/">Konferenser</a></li>
+	<li id="menu-item-204" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204"><a href="https://fai.nu/category/natverkstraffar/">Nätverksträffar</a></li>
+</ul>
+</li>
+</ul></div>    </div>
+       <div id="mobilbox">
+       <button id="responsive-menu-button"
+        class="responsive-menu-button responsive-menu-off
+         responsive-menu-accessible"
+        type="button"
+        aria-label="Menu">
+
+    
+    <span class="responsive-menu-box">
+        <span class="responsive-menu-inner"></span>
+    </span>
+
+    </button><div id="responsive-menu-container" class="slide-left">
+    <div id="responsive-menu-wrapper">
+                                        <div id="responsive-menu-title">
+        
+        
+        
+        
+        Meny
+
+            </div>
+                                                <ul id="responsive-menu" class=""><li id="responsive-menu-item-1406" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-66 current_page_item responsive-menu-item responsive-menu-current-item"><a href="https://fai.nu/" class="responsive-menu-item-link">Startsidan</a></li><li id="responsive-menu-item-1407" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/mentorprogram/" class="responsive-menu-item-link">Mentorprogram</a></li><li id="responsive-menu-item-1408" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/stipendium/" class="responsive-menu-item-link">Priser och stipendier</a></li><li id="responsive-menu-item-1409" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/medlem/" class="responsive-menu-item-link">Medlem</a></li><li id="responsive-menu-item-1410" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children responsive-menu-item responsive-menu-item-has-children"><a href="https://fai.nu/var-verksamhet/" class="responsive-menu-item-link">Aktiviteter<div class="responsive-menu-subarrow">▼</div></a><ul class='responsive-menu-submenu responsive-menu-submenu-depth-1'><li id="responsive-menu-item-1412" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/var-verksamhet/temadagar/" class="responsive-menu-item-link">Temadagar</a></li><li id="responsive-menu-item-1411" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/var-verksamhet/medlemscafeer/" class="responsive-menu-item-link">Medlemscaféer</a></li></ul></li><li id="responsive-menu-item-6235" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children responsive-menu-item responsive-menu-item-has-children"><a href="https://fai.nu/konferens-16-17-oktober-2018/" class="responsive-menu-item-link">Konferens<div class="responsive-menu-subarrow">▼</div></a><ul class='responsive-menu-submenu responsive-menu-submenu-depth-1'><li id="responsive-menu-item-6238" class=" menu-item menu-item-type-taxonomy menu-item-object-dag responsive-menu-item"><a href="https://fai.nu/dag/dag-1-2018/" class="responsive-menu-item-link">Dag 1</a></li><li id="responsive-menu-item-6239" class=" menu-item menu-item-type-taxonomy menu-item-object-dag responsive-menu-item"><a href="https://fai.nu/dag/dag-2-2018/" class="responsive-menu-item-link">Dag 2</a></li><li id="responsive-menu-item-6455" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/konferens-16-17-oktober-2018/dokumentation-2018/" class="responsive-menu-item-link">Dokumentation 2018</a></li><li id="responsive-menu-item-6240" class=" menu-item menu-item-type-taxonomy menu-item-object-tema responsive-menu-item"><a href="https://fai.nu/tema/arkivutredningen-2018/" class="responsive-menu-item-link">Arkivutredningen</a></li><li id="responsive-menu-item-6241" class=" menu-item menu-item-type-taxonomy menu-item-object-tema responsive-menu-item"><a href="https://fai.nu/tema/dataskyddsforordningen/" class="responsive-menu-item-link">Dataskyddsförordningen</a></li><li id="responsive-menu-item-6242" class=" menu-item menu-item-type-taxonomy menu-item-object-tema responsive-menu-item"><a href="https://fai.nu/tema/digitalisering-2018/" class="responsive-menu-item-link">Digitalisering</a></li><li id="responsive-menu-item-6243" class=" menu-item menu-item-type-taxonomy menu-item-object-tema responsive-menu-item"><a href="https://fai.nu/tema/e-arkiv-2018/" class="responsive-menu-item-link">E-Arkiv</a></li><li id="responsive-menu-item-6236" class=" menu-item menu-item-type-post_type menu-item-object-program responsive-menu-item"><a href="https://fai.nu/program/e-underskrifter-pa-fastighetsavtal/" class="responsive-menu-item-link">E-underskrifter på fastighetsavtal</a></li><li id="responsive-menu-item-6244" class=" menu-item menu-item-type-taxonomy menu-item-object-tema responsive-menu-item"><a href="https://fai.nu/tema/formatsparet-2018/" class="responsive-menu-item-link">Format vid bevarande</a></li><li id="responsive-menu-item-6245" class=" menu-item menu-item-type-taxonomy menu-item-object-tema responsive-menu-item"><a href="https://fai.nu/tema/arbetsmarknad-2018/" class="responsive-menu-item-link">Yrkesroll och arbetsmarknad</a></li></ul></li><li id="responsive-menu-item-1418" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children responsive-menu-item responsive-menu-item-has-children"><a href="https://fai.nu/publikationer/" class="responsive-menu-item-link">Publikationer<div class="responsive-menu-subarrow">▼</div></a><ul class='responsive-menu-submenu responsive-menu-submenu-depth-1'><li id="responsive-menu-item-1419" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/publikationer/nyhetsbrev/" class="responsive-menu-item-link">Nyhetsbrev</a></li><li id="responsive-menu-item-1420" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/publikationer/tidskriften_arkiv/" class="responsive-menu-item-link">Tidskriften Arkiv</a></li><li id="responsive-menu-item-1421" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/publikationer/bokutgivning/" class="responsive-menu-item-link">Bokutgivning</a></li><li id="responsive-menu-item-1422" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/publikationer/arkivlitteratur/" class="responsive-menu-item-link">Annan arkivlitteratur</a></li><li id="responsive-menu-item-1423" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a title="Arkiv, samhälle och forskning" href="https://fai.nu/publikationer/dokumentarkiv/" class="responsive-menu-item-link">ASF</a></li></ul></li><li id="responsive-menu-item-1424" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children responsive-menu-item responsive-menu-item-has-children"><a href="https://fai.nu/om-oss/" class="responsive-menu-item-link">Om oss<div class="responsive-menu-subarrow">▼</div></a><ul class='responsive-menu-submenu responsive-menu-submenu-depth-1'><li id="responsive-menu-item-1425" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/styrelse/" class="responsive-menu-item-link">Styrelse</a></li><li id="responsive-menu-item-1426" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/styrdokument/" class="responsive-menu-item-link">Stadgar</a></li><li id="responsive-menu-item-6234" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/personuppgifter/" class="responsive-menu-item-link">Personuppgifter</a></li><li id="responsive-menu-item-1427" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/arsmote/" class="responsive-menu-item-link">Årsmöte och föreningsstruktur</a></li><li id="responsive-menu-item-1428" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/foreningens-historia/" class="responsive-menu-item-link">Föreningens historia</a></li><li id="responsive-menu-item-1429" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a title="Logga och profilprodukter" href="https://fai.nu/om-oss/logga-och-profilprodukter/" class="responsive-menu-item-link">Profilprodukter</a></li><li id="responsive-menu-item-1414" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/arkivarieyrket/" class="responsive-menu-item-link">Arkivarieyrket</a></li><li id="responsive-menu-item-1415" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/registratorsyrket/" class="responsive-menu-item-link">Registratorsyrket</a></li><li id="responsive-menu-item-5438" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/arkivpedagogyrket/" class="responsive-menu-item-link">Arkivpedagogyrket</a></li><li id="responsive-menu-item-1416" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/samverkan/" class="responsive-menu-item-link">Samverkan</a></li><li id="responsive-menu-item-1417" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/om-oss/internationellt/" class="responsive-menu-item-link">Internationellt</a></li></ul></li><li id="responsive-menu-item-1431" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/natverk/" class="responsive-menu-item-link">Nätverk</a></li><li id="responsive-menu-item-1430" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children responsive-menu-item responsive-menu-item-has-children"><a href="https://fai.nu/pa-gang/" class="responsive-menu-item-link">På gång<div class="responsive-menu-subarrow">▼</div></a><ul class='responsive-menu-submenu responsive-menu-submenu-depth-1'><li id="responsive-menu-item-1434" class=" menu-item menu-item-type-taxonomy menu-item-object-category responsive-menu-item"><a href="https://fai.nu/category/konferenser/" class="responsive-menu-item-link">Konferenser</a></li><li id="responsive-menu-item-1433" class=" menu-item menu-item-type-taxonomy menu-item-object-category responsive-menu-item"><a href="https://fai.nu/category/natverkstraffar/" class="responsive-menu-item-link">Nätverksträffar</a></li><li id="responsive-menu-item-1432" class=" menu-item menu-item-type-taxonomy menu-item-object-category responsive-menu-item"><a href="https://fai.nu/category/kalendarium/" class="responsive-menu-item-link">Kalendarium</a></li></ul></li><li id="responsive-menu-item-1435" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/kontakta-oss/" class="responsive-menu-item-link">Kontakta oss</a></li><li id="responsive-menu-item-1436" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/summary-in-english/" class="responsive-menu-item-link">Summary in english</a></li><li id="responsive-menu-item-1437" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a href="https://fai.nu/press/" class="responsive-menu-item-link">Press</a></li></ul>                                                <div id="responsive-menu-search-box">
+    <form action="https://fai.nu" class="responsive-menu-search-form" role="search">
+        <input type="search" name="s" title="Search"
+               placeholder="Search"
+               class="responsive-menu-search-box">
+    </form>
+</div>                                                <div id="responsive-menu-additional-content"></div>                        </div>
+</div>
+        </div>
+
+
+
+<div id="container">
+
+<div id="content">
+<div id="main-start">      
+	        <div class="clear">&nbsp;</div>
+	<div>
+        <div class="post" id="post-66">
+            <h1 class="hidden">Startsidan</h1>
+            <div style="clear:both;"></div>        </div>
+	</div>
+
+	
+	        
+    <div id="startbox-1">  <!--STORA BILDSPELET-->
+                <div style="clear:both;"></div><p><a href="https://fai.nu/konferens-16-17-oktober-2018/"><img class="size-full wp-image-6133 aligncenter" src="https://fai.nu/wp-content/uploads/FAI_bild_LeftSide_konferens2018-1.png" alt="" width="373" height="282" srcset="https://fai.nu/wp-content/uploads/FAI_bild_LeftSide_konferens2018-1.png 373w, https://fai.nu/wp-content/uploads/FAI_bild_LeftSide_konferens2018-1-150x113.png 150w, https://fai.nu/wp-content/uploads/FAI_bild_LeftSide_konferens2018-1-195x147.png 195w" sizes="(max-width: 373px) 100vw, 373px" /></a></p>
+               
+    </div>
+    <div id="startbox-2">      <!--GULA RUTAN-->
+                <div class="starttext"> 
+        <div class="post">
+        <div style="clear:both;"></div><h2>Vi är en förening för dig som arbetar med eller är intresserad av arkiv och informationsförvaltning. <br />Vi ordnar konferenser, nätverksträffar, håller koll på branschen och agerar språkrör i våra frågor mot olika instanser. <a title="Om oss" href="https://fai.nu/om-oss/">Läs mer &gt;&gt;</a></h2>
+        </div>
+        </div>
+               
+    </div>
+
+    <div id="startbox-middle">  <!--DET SOM HÄMTAS IN I RUTAN I MITTEN-->
+
+
+   
+    <div id="startbox-navbox"><ul class="menu"><li class="current"><a href="https://fai.nu/?visa=aktuellt">Aktuellt</a></li><li><a href="https://fai.nu/?visa=kalendarium">Kalendarium</a></li><li><a href="https://fai.nu/?visa=konferenser">Konferenser</a></li><li><a href="https://fai.nu/?visa=natverkstraffar">N&auml;tverkstr&auml;ffar</a></li></ul></div>		<div id="startbox-ruta">
+		<ul>   
+						<li>  
+			<div class="datum">
+				  
+            </div>
+			<div class="text"> 
+			<h2> <a href="https://fai.nu/ask-an-archivist-day/" rel="bookmark" title="Permanent Link to Ask an archivist day"> Ask an archivist day </a></h2> 
+			<div class="post">
+				<p>Följ oss på Twitter under #AskAnArchivist Day. Onsdag den 3 oktober är det åter dags för Ask an archivist day. Ett internationellt invent där frågor </p>
+   
+                <a class="postmeta" href="https://fai.nu/ask-an-archivist-day/" rel="bookmark" title="Permanent Link to Ask an archivist day"> L&auml;s&nbsp;mer</a>
+			            		    <div class="clear">&nbsp;</div>
+</div>
+            		    <div class="clear">&nbsp;</div>
+
+            </div>
+	</li>
+						<li>  
+			<div class="datum">
+				                    Oktober                  
+            </div>
+			<div class="text"> 
+			<h2> <a href="https://fai.nu/ny-bok-utkommer-i-host-information-i-verksamhet-och-arkiv/" rel="bookmark" title="Permanent Link to Ny bok utkommer i höst &#8211; Information i verksamhet och arkiv"> Ny bok utkommer i höst &#8211; Information i verksamhet och arkiv </a></h2> 
+			<div class="post">
+				<p>Informationen i verksamheten och i arkiven står i fokus i denna lärobok som riktar sig till studenter i arkiv- och informationsvetenskap samt yrkesverksamma arkivarier och </p>
+   
+                <a class="postmeta" href="https://fai.nu/ny-bok-utkommer-i-host-information-i-verksamhet-och-arkiv/" rel="bookmark" title="Permanent Link to Ny bok utkommer i höst &#8211; Information i verksamhet och arkiv"> L&auml;s&nbsp;mer</a>
+			            		    <div class="clear">&nbsp;</div>
+</div>
+            		    <div class="clear">&nbsp;</div>
+
+            </div>
+	</li>
+						<li>  
+			<div class="datum">
+				                    16-17 oktober                  
+            </div>
+			<div class="text"> 
+			<h2> <a href="https://fai.nu/hostkonferens-2018/" rel="bookmark" title="Permanent Link to FAI:s konferens i Stockholm"> FAI:s konferens i Stockholm </a></h2> 
+			<div class="post">
+				<p>FAI-konferensen Informationsförvaltning 2018 äger rum 16-17 oktober på IVA:s konferenscenter i Stockholm. Två välfyllda dagar med informationsförvaltning i e-förvaltningen, arkivutredningen, dataskyddsförordningen, registratur, format , digitalisering </p>
+   
+                <a class="postmeta" href="https://fai.nu/hostkonferens-2018/" rel="bookmark" title="Permanent Link to FAI:s konferens i Stockholm"> L&auml;s&nbsp;mer</a>
+			            		    <div class="clear">&nbsp;</div>
+</div>
+            		    <div class="clear">&nbsp;</div>
+
+            </div>
+	</li>
+					</ul>
+		</div>
+	    
+    </div>
+
+    <div id="startbox-3">   <!--STARTRUTAN LÄNGST NER TILL VÄNSTER-->   
+         <div class="starttext"> 
+           <div class="orange-titel"><h2>LEDIGA TJÄNSTER</h2></div>
+
+    <div class="post">
+        <div style="clear:both;"></div><p><strong>Läkemedelsverket</strong> söker en <em><a href="https://lakemedelsverket.se/overgripande/Arbeta-hos-oss/">Arkivarie med intresse för digitalt och fysiskt arkivarbete</a></em></p>
+<p><strong>Riksbanken </strong>söker en registrator: <em><a href="https://www.riksbank.se/sv/om-riksbanken/jobba-hos-oss/lediga-jobb/?rmpage=job&amp;rmjob=616&amp;rmlang=SE">Annons registrator september 2018</a></em></p>
+<p><strong>Riksantikvarieämbetet </strong>söker en digitaliseringssamordnare och en arkivarie/ digitalt bevarande: <em><a href="https://www.raa.se/aktuellt/jobba-hos-oss/lediga-tjanster-att-soka/" target="_blank" rel="noopener">Lediga jobb hos Riksantikvarieämbetet</a></em></p>
+<p>Vill du tipsa om lediga tjänster? Maila till <a href="mailto:info@fai.nu">info@fai.nu</a></p>
+        </div>
+        </div>
+           <!--STARTRUTAN LÄNGST NER I MITTEN - MÅNADENS BLOGGARE-->   
+             		    <div class="clear">&nbsp;</div>
+   </div>
+    <div id="startbox-4">      
+        	  <div class="starttext"> 
+                <div class="orange-titel"><h2>Medlemmar berättar</h2></div>
+
+        <div class="post">
+        <div style="clear:both;"></div><p><strong><img class="wp-image-6259  alignleft" src="https://fai.nu/wp-content/uploads/DSC2844-478x318.jpg" alt="" width="198" height="132" />NAMN Petra Dornbusch</strong></p>
+<p><strong>JOBB Chef på Riksarkivets tillsynsenhet </strong></p>
+<p>&nbsp;</p>
+<p><strong>Arbetar med att strategiskt styra och planera tillsynsenhetens arbete på Riksarkivet. Ny styrelseledamot i FAI.</strong></p>
+<p><a href="https://fai.nu/petra-dornbusch/">LÄS MER</a></p>
+        </div>
+        </div>
+               
+              		    <div class="clear">&nbsp;</div>
+  </div>    
+</div>
+
+
+<div id="sidebar-right">
+    <div id="startboxside-1">  <!--LILLA BILDSPELET-->
+                <div style="clear:both;"></div><div id='image_slideshow_holder' style='max-width:195px'><ul id='image_slideshow' class='acx_ppt acx_ppt_0 acx_ppt_uid_Litet_bildspel' style='width:195px;overflow:hidden;'><li><a href='https://fai.nu/medlem/' target='_self' title='FAI bli medlem 1'><img src='https://fai.nu/wp-content/uploads/FAI-bli-medlem-1.png' title='FAI bli medlem 1' alt='FAI bli medlem' style='max-height:280px;width:195px;'></a><div class='img_prev_0 img_prev'></div><div class='img_next_0 img_next'></div></li><li><a href='https://fai.nu/medlem/' target='_self' title='FAI bli medlem 2'><img src='https://fai.nu/wp-content/uploads/FAI-bli-medlem-2.png' title='FAI bli medlem 2' alt='FAI bli medlem' style='max-height:280px;width:195px;'></a><div class='img_prev_0 img_prev'></div><div class='img_next_0 img_next'></div></li><li><a href='https://fai.nu/medlem/' target='_self' title='FAI bli medlem 3'><img src='https://fai.nu/wp-content/uploads/FAI-bli-medlem-3.png' title='FAI bli medlem 3' alt='FAI bli medlem' style='max-height:280px;width:195px;'></a><div class='img_prev_0 img_prev'></div><div class='img_next_0 img_next'></div></li><li><a href='https://fai.nu/medlem/' target='_self' title='FAI bli medlem 4'><img src='https://fai.nu/wp-content/uploads/FAI-bli-medlem-4.png' title='FAI bli medlem 4' alt='FAI bli medlem' style='max-height:280px;width:195px;'></a><div class='img_prev_0 img_prev'></div><div class='img_next_0 img_next'></div></li><input type='hidden' id='acx_hidden_id_0' value='stop'/></ul></div><!-- image_slideshow_holder -->
+                
+    </div>
+    
+    <div id="startboxside-2">     <!-- LILA RUTA 1 --> 
+                <h2 class="hidden">Lila ruta 1 </h2>
+        <div class="starttext"> 
+        <div class="post">
+        <div style="clear:both;"></div><h2 class="puff-banner SKLinkListHeader h4"><strong>Boksläpp 16 okt</strong></h2>
+<h3 class="puff-banner SKLinkListHeader h4"><strong>Ny lärobok</strong></h3>
+<p><strong>Information i verksamhet och arkiv &#8211; regler och standarder med ett digitalt perspektiv</strong></p>
+<p>En bok av Mats Burell och Carina Sjögren</p>
+<p>Ges ut som både tryckt bok och e-bok</p>
+<p><a href="https://fai.nu/publikationer/bokutgivning/information-i-verksamhet-och-arkiv/">LÄS MER</a></p>
+        </div>
+        </div>
+         
+    </div>
+    
+    <div id="startboxside-3">      <!-- LILA RUTA 2 --> 
+                <h2 class="hidden">Lila ruta 2 </h2>
+        <div class="starttext"> 
+        <div class="post">
+        <div style="clear:both;"></div><h2>Arkivutredningen</h2>
+<p>Lars Ilshammar leder arkivutredningen.Regeringen har den 26 oktober beslutat om kommittédirektiv för utredningen ”<strong>Översyn av arkivområdet</strong>”.</p>
+<p><a href="http://www.regeringen.se/pressmeddelanden/2017/10/lars-ilshammar-utreder-ny-arkivpolitik/">LÄS MER</a></p>
+<p>&nbsp;</p>
+        </div>
+        </div>
+         
+    </div>
+    
+    <div id="startboxside-4">      <!-- LILA RUTA 3 --> 
+                <h2 class="hidden">Lila ruta 3 </h2>
+        <div class="starttext"> 
+        <div class="post">
+        <div style="clear:both;"></div><h2>Föreningens profilprodukter</h2>
+<p>Är du intresserad av USB-minnen, tygkassar eller våra populära knappar med texter som &#8220;Trust me !´m an archivist&#8221;</p>
+<p><a href="https://fai.nu/om-oss/logga-och-profilprodukter/">LÄS MER</a></p>
+        </div>
+        </div>
+         
+    </div>
+              
+    <div class="clear">&nbsp;</div>
+</div>
+
+
+</div><!--content-->
+
+<div class="clear">&nbsp;</div>
+
+</div><!--container-->
+
+<div id="footer">
+    <div class="adressbox">
+        <address>
+        FAI, FÖRENINGEN FÖR ARKIV &amp; INFORMATIONSFÖRVALTNING<br />
+        c/o Föreningshuset, Virkesvägen 26, 120 30 Stockholm<br />
+        Tel kansli 08 – 121 513 21, <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#102;&#097;&#105;&#046;&#110;&#117;">&#105;&#110;&#102;&#111;&#064;&#102;&#097;&#105;&#046;&#110;&#117;</a>
+        </address>
+    </div>
+
+    <div class="socialbox">
+        <a href="https://www.facebook.com/arkivochinformationsforvaltning" title="Föreningen för Arkiv och informationsförvaltning på Facebook" target="_blank"><img src="https://fai.nu/wp-content/themes/fai/images/symbol_fb.png" alt="Facebook" width="32" height="32" /> </a>
+        <a href="https://www.twitter.com/@foreningen_fai" title="Föreningen för Arkiv och informationsförvaltning på Twitter" target="_blank"><img src="https://fai.nu/wp-content/themes/fai/images/symbol_twitter.png" alt="Twitter" width="32" height="32" /> </a>
+        <a href="https://www.linkedin.com/groups/8446317/profile" title="Föreningen för Arkiv och informationsförvaltning på LinkedIn" target="_blank"><img src="https://fai.nu/wp-content/themes/fai/images/symbol_linkedin.png" alt="LinkedIn" width="32" height="32" /> </a>
+    </div>
+
+    <div class="bottom">
+        <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#102;&#097;&#105;&#046;&#110;&#117;">WEBBMASTER</a>
+    </div>
+
+	<div class="clear">&nbsp;</div>
+
+</div>
+
+<div class="clear">&nbsp;</div>
+
+</div><!--page-->
+
+</div><!--wrapper-->
+<!-- Starting of Javascript Generated by Simple Slideshow Manager -->
+<script type="text/javascript">
+jQuery('.acx_ppt_0 li:gt(0)').addClass('inactive');
+jQuery('.acx_ppt_0 li:last').addClass('last');
+jQuery('.acx_ppt_0 li:last').addClass('inactive');
+jQuery('.acx_ppt_0 li:first').addClass('first');
+jQuery('.acx_ppt_0 li:first').addClass('active');
+
+jQuery('#img_play_0').addClass('inactive');
+var sliderHover_0 = false;
+
+var cur_0 = jQuery('.acx_ppt_0 li:first');
+var interval;
+
+jQuery('.img_next_0').click( function() 
+{
+	goFwd_0();
+	showPause_0();
+} );
+
+jQuery('.img_prev_0').click( function() 
+{
+	goBack_0();
+	showPause_0();
+	
+} );
+
+jQuery('#img_stop_0').click( function()
+ {
+
+	stop_0();
+	showPlay_0();
+} );
+
+jQuery('#img_play_0').click( function() 
+{
+	start_0();
+	showPause_0();
+} );
+
+function goFwd_0() 
+{
+	stop_0();
+	forward_0();
+	start_0();
+}
+
+function goBack_0() 
+{
+	stop_0();
+	back_0();
+	start_0();
+}
+
+function forward_0() 
+{
+
+var hidden_id = 'acx_hidden_id_'+0;
+var vedio_status = document.getElementById(hidden_id).value;
+if(vedio_status!="play")
+{
+	cur_0.animate({
+										opacity: 0
+									}, 2000).addClass('inactive').removeClass('active');
+	
+	if ( cur_0.hasClass('last'))
+	cur_0 = jQuery('.acx_ppt_0 li:first');
+	else
+	cur_0 = cur_0.next();
+	cur_0.animate({
+										opacity: 1
+									}, 2000).addClass('active').removeClass('inactive');
+}
+}
+jQuery(".acx_ppt_0").hover(
+function () 
+{
+stop_0();
+showPlay_0();
+var hidden_id = 'acx_hidden_id_'+0;
+var vedio_status = document.getElementById(hidden_id).value;
+if(vedio_status=="play")
+{
+	jQuery('#img_play_0').hide();
+	jQuery('#img_stop_0').hide();
+}
+},
+function ()
+{
+var hidden_id = 'acx_hidden_id_'+0;
+var vedio_status = document.getElementById(hidden_id).value;
+if(vedio_status!="play")
+{
+	stop_0();
+	start_0();
+	showPause_0();
+
+}
+}
+);
+
+function back_0()
+{
+var hidden_id = 'acx_hidden_id_'+0;
+var vedio_status = document.getElementById(hidden_id).value;
+if(vedio_status!="play")
+{
+	cur_0.animate({
+										opacity: 0
+									}, 2000).addClass('inactive').removeClass('active');
+	if ( cur_0.hasClass('first'))
+	cur_0 = jQuery('.acx_ppt_0 li:last');
+	else
+	cur_0 = cur_0.prev();
+	cur_0.animate({
+										opacity: 1
+									}, 2000).addClass('active').removeClass('inactive');
+}
+}
+
+function showPause_0()
+{
+	jQuery('#img_play_0').hide();
+	jQuery('#img_stop_0').show();
+}
+
+function showPlay_0() 
+{
+	jQuery('#img_stop_0').hide();
+	jQuery('#img_play_0').show();
+}
+
+function start_0() 
+{
+	interval_0 = setInterval( "forward_0()", 4000 );
+}
+
+function stop_0()
+{
+	clearInterval( interval_0 );
+}
+
+jQuery(function() 
+{
+	start_0();
+} );
+
+jQuery( document ).ready(function() {
+acx_hidden_id_0 = jQuery("#acx_hidden_id_0").val('stop');
+});
+</script>
+<!-- Ending of Javascript Generated by Advanced Slideshow Manager -->	
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/fai.nu\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Bekr\u00e4fta att du inte \u00e4r en robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fai.nu/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.4'></script>
+<script type='text/javascript' src='https://fai.nu/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script>jQuery(document).ready(function($){var ResponsiveMenu ={trigger: '#responsive-menu-button',animationSpeed: 500,breakpoint: 767,pushButton: 'off',animationType: 'slide',animationSide: 'left',pageWrapper: '',isOpen: false,triggerTypes: 'click',activeClass: 'is-active',container: '#responsive-menu-container',openClass: 'responsive-menu-open',accordion: 'off',activeArrow: '▲',inactiveArrow: '▼',wrapper: '#responsive-menu-wrapper',closeOnBodyClick: 'off',closeOnLinkClick: 'off',itemTriggerSubMenu: 'off',linkElement: '.responsive-menu-item-link',subMenuTransitionTime: 200,openMenu: function(){$(this.trigger).addClass(this.activeClass);$('html').addClass(this.openClass);$('.responsive-menu-button-icon-active').hide();$('.responsive-menu-button-icon-inactive').show();this.setButtonTextOpen();this.setWrapperTranslate();this.isOpen = true},closeMenu: function(){$(this.trigger).removeClass(this.activeClass);$('html').removeClass(this.openClass);$('.responsive-menu-button-icon-inactive').hide();$('.responsive-menu-button-icon-active').show();this.setButtonText();this.clearWrapperTranslate();this.isOpen = false},setButtonText: function(){if($('.responsive-menu-button-text-open').length > 0 && $('.responsive-menu-button-text').length > 0){$('.responsive-menu-button-text-open').hide();$('.responsive-menu-button-text').show()}},setButtonTextOpen: function(){if($('.responsive-menu-button-text').length > 0 && $('.responsive-menu-button-text-open').length > 0){$('.responsive-menu-button-text').hide();$('.responsive-menu-button-text-open').show()}},triggerMenu: function(){this.isOpen ? this.closeMenu() : this.openMenu()},triggerSubArrow: function(subarrow){var sub_menu = $(subarrow).parent().siblings('.responsive-menu-submenu');var self = this;if(this.accordion == 'on'){var top_siblings = sub_menu.parents('.responsive-menu-item-has-children').last().siblings('.responsive-menu-item-has-children');var first_siblings = sub_menu.parents('.responsive-menu-item-has-children').first().siblings('.responsive-menu-item-has-children');top_siblings.children('.responsive-menu-submenu').slideUp(self.subMenuTransitionTime, 'linear').removeClass('responsive-menu-submenu-open');top_siblings.each(function(){$(this).find('.responsive-menu-subarrow').first().html(self.inactiveArrow);$(this).find('.responsive-menu-subarrow').first().removeClass('responsive-menu-subarrow-active')});first_siblings.children('.responsive-menu-submenu').slideUp(self.subMenuTransitionTime, 'linear').removeClass('responsive-menu-submenu-open');first_siblings.each(function(){$(this).find('.responsive-menu-subarrow').first().html(self.inactiveArrow);$(this).find('.responsive-menu-subarrow').first().removeClass('responsive-menu-subarrow-active')})}if(sub_menu.hasClass('responsive-menu-submenu-open')){sub_menu.slideUp(self.subMenuTransitionTime, 'linear').removeClass('responsive-menu-submenu-open');$(subarrow).html(this.inactiveArrow);$(subarrow).removeClass('responsive-menu-subarrow-active')}else{sub_menu.slideDown(self.subMenuTransitionTime, 'linear').addClass('responsive-menu-submenu-open');$(subarrow).html(this.activeArrow);$(subarrow).addClass('responsive-menu-subarrow-active')}},menuHeight: function(){return $(this.container).height()},menuWidth: function(){return $(this.container).width()},wrapperHeight: function(){return $(this.wrapper).height()},setWrapperTranslate: function(){switch(this.animationSide){case 'left':translate = 'translateX(' + this.menuWidth() + 'px)';break;case 'right':translate = 'translateX(-' + this.menuWidth() + 'px)';break;case 'top':translate = 'translateY(' + this.wrapperHeight() + 'px)';break;case 'bottom':translate = 'translateY(-' + this.menuHeight() + 'px)';break}if(this.animationType == 'push'){$(this.pageWrapper).css({'transform':translate});$('html, body').css('overflow-x', 'hidden')}if(this.pushButton == 'on'){$('#responsive-menu-button').css({'transform':translate})}},clearWrapperTranslate: function(){var self = this;if(this.animationType == 'push'){$(this.pageWrapper).css({'transform':''});setTimeout(function(){$('html, body').css('overflow-x', '')}, self.animationSpeed)}if(this.pushButton == 'on'){$('#responsive-menu-button').css({'transform':''})}},init: function(){var self = this;$(this.trigger).on(this.triggerTypes, function(e){e.stopPropagation();self.triggerMenu()});$(this.trigger).mouseup(function(){$(self.trigger).blur()});$('.responsive-menu-subarrow').on('click', function(e){e.preventDefault();e.stopPropagation();self.triggerSubArrow(this)});$(window).resize(function(){if($(window).width() > self.breakpoint){if(self.isOpen){self.closeMenu()}}else{if($('.responsive-menu-open').length>0){self.setWrapperTranslate()}}});if(this.closeOnLinkClick == 'on'){$(this.linkElement).on('click', function(e){e.preventDefault();if(self.itemTriggerSubMenu == 'on' && $(this).is('.responsive-menu-item-has-children > ' + self.linkElement)){return}old_href = $(this).attr('href');old_target = typeof $(this).attr('target') == 'undefined' ? '_self' : $(this).attr('target');if(self.isOpen){if($(e.target).closest('.responsive-menu-subarrow').length){return}self.closeMenu();setTimeout(function(){window.open(old_href, old_target)}, self.animationSpeed)}})}if(this.closeOnBodyClick == 'on'){$(document).on('click', 'body', function(e){if(self.isOpen){if($(e.target).closest('#responsive-menu-container').length || $(e.target).closest('#responsive-menu-button').length){return}}self.closeMenu()})}if(this.itemTriggerSubMenu == 'on'){$('.responsive-menu-item-has-children > ' + this.linkElement).on('click', function(e){e.preventDefault();self.triggerSubArrow($(this).children('.responsive-menu-subarrow').first())})}}};ResponsiveMenu.init()});</script>
+<script>
+
+jQuery(function() {  
+  jQuery('span.play a').click(function() {  
+     jQuery(this).closest('.post').find('.toggleSection').slideToggle(); 
+	 jQuery(this).closest('.post').find(".utdraget").slideToggle(); 
+
+ 
+     return false;  
+  }); 
+
+});  
+	
+</script>
+</body>
+
+7
+</html>
+0
+
+
+
+WARC/1.0
+WARC-Type: metadata
+WARC-Record-ID: <urn:uuid:939c95e1-ce65-45be-ae57-20c41a4c12d7>
+WARC-Warcinfo-ID: <urn:uuid:81fb45bf-0aa7-483f-bfec-723173205d5c>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/MANIFEST.txt
+WARC-Date: 2018-10-12T10:47:25Z
+WARC-Block-Digest: sha1:5V636U3LLHYEZI3EZH3LFM6V3KGDBUIF
+Content-Type: text/plain
+Content-Length: 48
+
+<urn:uuid:81fb45bf-0aa7-483f-bfec-723173205d5c>
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:d867e7bb-67b9-4100-a095-3907b1662d40>
+WARC-Warcinfo-ID: <urn:uuid:81fb45bf-0aa7-483f-bfec-723173205d5c>
+WARC-Concurrent-To: <urn:uuid:939c95e1-ce65-45be-ae57-20c41a4c12d7>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget_arguments.txt
+WARC-Date: 2018-10-12T10:47:25Z
+WARC-Block-Digest: sha1:VZFAXP4GOPLVOBZTPZ22GEOAPB4FKJY3
+Content-Type: text/plain
+Content-Length: 88
+
+"-e" "robots=off" "--warc-file=fai_main_page" "https://fai.nu" "--no-warc-compression" 
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:583e2619-0496-4ee6-a960-671fd063b29f>
+WARC-Warcinfo-ID: <urn:uuid:81fb45bf-0aa7-483f-bfec-723173205d5c>
+WARC-Concurrent-To: <urn:uuid:939c95e1-ce65-45be-ae57-20c41a4c12d7>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget.log
+WARC-Date: 2018-10-12T10:47:25Z
+WARC-Block-Digest: sha1:BIZPQOW74AFSXXIDOOALF332EEPZ73QD
+Content-Type: text/plain
+Content-Length: 504
+
+Opening WARC file "fai_main_page.warc".
+
+--2018-10-12 12:47:22--  https://fai.nu/
+Slår upp fai.nu (fai.nu)... 31.216.35.29
+Ansluter till fai.nu (fai.nu)|31.216.35.29|:443... ansluten.
+HTTP-begäran skickad, väntar på svar... 200 OK
+Längd: ospecifierat [text/html]
+Sparar till: "index.html"
+
+     0K .......... .......... .......... .......... ..........  920K
+    50K .......... .......                                      941K=0,07s
+
+2018-10-12 12:47:25 (926 KB/s) - "index.html" sparades [68631]
+
+
+

@@ -1,0 +1,8 @@
+#Du behöver köra dessa kommando som root anting genom sudo eller su
+apt-get update
+apt-get install git
+apt-get install curl
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
+git clone https://github.com/N0taN3rd/Squidwarc.git
+cd Squidwarc
+./bootstrap.sh

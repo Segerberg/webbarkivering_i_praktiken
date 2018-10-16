@@ -1,0 +1,5 @@
+pip install pywb
+wb-manager init my-web-archive
+wayback --record --live -a --auto-interval 10
+
+### Navigera till http://localhost:8080/my-web-archive/record/http://www.webbplatsduvillarkivera.se ###

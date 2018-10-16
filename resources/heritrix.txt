@@ -1,0 +1,13 @@
+wget https://builds.archive.org/job/Heritrix-3/lastStableBuild/org.archive.heritrix%24heritrix/artifact/org.archive.heritrix/heritrix/3.3.0-20181012.121149-116/heritrix-3.3.0-20181012.121149-116-dist.zip
+unzip heritrix-3.3.0-20181012.121149-116-dist.zip 
+cd heritrix-3.3.0-SNAPSHOT
+cd bin
+./heritrix -a admin:admin 
+
+### Öppna vebbläsaren och navigera till https://locahost:8443  ###
+### Obs! Det är viktigt att använda just https ### 
+### webbläsaren kommer klaga på att anslutningen inte är säker ###
+### i firefox klickar man på avancerad och lägg till undantag  och bekräfta undatag för att komma vidare ###
+### logga sedan in med användarnamn admin och lösenord admin ####
+
+
