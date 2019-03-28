@@ -27,14 +27,14 @@
           <br>
           <p style="font-size: smaller;">
             Andreas Segerberg<br>
-            <a href="http://regionarkivet.se">regionarkivet.se</a>
+            <a href="http://regionarkivet.se"></a>
 			<br>
-            andreas.segerberg@arkivnamnden.goteborg.se
+            andreas.segerberg@essolutions.se
 			<br>
             <br>
             <br>
             <br>
-            Presentationen: <a href="https://bit.ly/2OrgHXb">https://bit.ly/2OrgHXb</a>
+            Presentationen: <a href="#">#</a>
           </p>
         </section>
  
@@ -43,10 +43,10 @@
           <h3>Agenda</h3>
           <ul style="font-size: 22pt;">
             <li>Webbsidor och sociala medier som records och digitala objekt</li>
-            <li class='fragment'>Hårdvara</li>
             <li class='fragment'>Insamling
 			<ul>
 			<li class="fragment">Arkivformat</li>
+			<li class='fragment'>Hårdvara</li>
 			<li class="fragment">Mjukvara
 			<ul>
 			<li class="fragment">Installation</li>
@@ -56,14 +56,6 @@
 			</ul>
 			</li>
             <li class='fragment'>Åtkomst
-			<ul class=fragment">
-			<li class ="fragment">Mjukvara
-			<ul>
-			<li>Installation</li>
-			<li>Konfiguration</li>
-			</ul>	
-			</li>
-			</ul>
 			</li>
           </ul>
         </section>
@@ -119,17 +111,6 @@
            <img class="plain" height="60%" width="60%" src="images/pi_3.png">
 		  
         </section>
-		 <section>
-		<h3>Virtuella Maskiner</h3>
-		   <img class="plain" height="10%" width="10%" src="images/virtualbox_logo.png">
-		   <br>
-           <img class="plain" height="90%" width="90%" src="images/virtualBox_screenshot.png">	  
-        </section>
-				 <section>
-		<h3>Maskiner i <i class="fa fa-cloud"></i>1</h3>
-		   <a href="https://console.cloud.google.com/cloud-resource-manager"><img class="plain" height="100%" width="100%" src="images/cloud_shell.png"></a>
-			<i class="fab fa-aws"></i>
-        </section>
 		
 		<section>
 		<h3>Insamling</h3>
@@ -147,6 +128,12 @@
 		<td><a href="https://www.gnu.org/software/wget/">Wget</a></td>
 		<td><i class="fa fa-align-right"></td>
 		<td><a href="https://www.gnu.org/software/wget/manual/wget.html"><i class="fa fa-book"></i></a></td>
+		</tr>
+		</tr>
+		<tr class='fragment'>
+		<td><a href="https://github.com/ArchiveTeam/grab-site">Grab-Site <a></td>
+		<td><i class="fa fa-align-right"> </i> </td>
+		<td></td>
 		</tr>
 		<tr class='fragment'>
 		<td><a href="https://github.com/internetarchive/heritrix3">Heritrix</a></td>
@@ -189,20 +176,10 @@
 		<td><a href="https://sfm.readthedocs.io/en/latest/"><i class="fa fa-book"></i></a></td>
 		</tr>
 		<tr class='fragment'>
-		<td><a href="https://github.com/Segerberg/kurbits-rpi">Kurbits <a></td>
-		<td><i class="fa fa-twitter"></i> </td>
-		<td></td>
-		</tr>
-		<tr class='fragment'>
 		<td><a href="https://www.httrack.com/">HTTrack <a></td>
 		<td><i class="fa fa-align-right"> </i> </td>
 		<td><a href="https://www.httrack.com/html/index.html"><i class="fa fa-book"></i></a></td>
-		</tr>
-		<tr class='fragment'>
-		<td><a href="http://warcreate.com/">WarCreate <a></td>
-		<td><i class="fa fa-align-right"> </i> </td>
-		<td></td>
-		</tr>
+	
 		
 		</tbody>
 		</table>		
@@ -214,35 +191,22 @@
 		
         </section>
 		<section>
+		<h3>Proveniens/Integritet</h3>
+		<img class="plain" height="50%" width="50%" src="images/miracles.jpg">
+        </section>
+		<section>
+		<h3>Proveniens/Integritet</h3>
+		<img class="plain" height="35%" width="35%" src="images/ducks.jpg">
+		<p style='font-size:14pt'><a href="https://www.youtube.com/watch?v=XlGLhYFrv6w">Gin & Juice</a></p>
+		<p style='font-size:14pt'><a href="">Deep Fake</a></p>
+		
+        </section>
+		<section>
 		<h3>WARC</h3>
-		<a href="resources/fai_main_page.warc"> <img class="plain" height="60%" width="60%" src="images/warc_record.png"></a>
-		
-        </section>
-		<section>
-		<h3>WGET (Enstaka sidor)</h3>
-		<script src="https://asciinema.org/a/w6IhzdHPkWXDjM0ttlqddEFIw.js" id="asciicast-w6IhzdHPkWXDjM0ttlqddEFIw" async></script>
-        </section>
-		<section>
-		<h3>WGET (Hel Domän)</h3>
-		<script src="https://asciinema.org/a/7yMT2nP4jjgQULwNR1uUMFkXl.js" id="asciicast-7yMT2nP4jjgQULwNR1uUMFkXl" async></script>
-        </section>
-		<section>
-		<h3>WGET Resultat</h3>
-	    <table>
-		<tr>
-		<td><p style='font-size:14pt'>Facebook </p>
-		<a href='http://192.168.14.139:8080/wget/20181016114829/https://www.facebook.com/arkivochinformationsforvaltning/'> <img class="plain"  src="images/wget_fb.png"></a></td>
-		<td><p style='font-size:14pt'>fai.nu </p>
-		<a href='http://192.168.14.139:8080/wget/20181016114001/https://fai.nu/'> <img class="plain"  src="images/wget_fai.png"></a></td>
-		</tr>
-		
-		</table>
-        </section>
-		
-		<section>
-		<h3>Heritrix Installation och start</h3>
-		<script src="https://asciinema.org/a/SRc0SYjvM4oJw2CPHS9bdCmZC.js" id="asciicast-SRc0SYjvM4oJw2CPHS9bdCmZC" async></script>
-		<a href='https://192.168.14.139:8443' target='blank'> <img class="plain" height="20%" width="20%" src="images/heritrix.gif"> </a>
+		<a href="resources/fai_main_page.warc"> <img class="plain" height="40%" width="40%" src="images/warc_record.png"></a>
+		<p style="font-size:14pt;">
+		<a href="http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf">WARC ISO 28500</a>
+		</p>
         </section>
 		
 		<section>
@@ -257,28 +221,7 @@
 		</table>
         </section>
 		
-		<section>
-		<h3>Pywb installation och start</h3>
-		<script src="https://asciinema.org/a/kJE0r2AzpV8KtLj6bzVkp2cZO.js" id="asciicast-kJE0r2AzpV8KtLj6bzVkp2cZO" async></script>
-		<p style="font-size:14pt"><a href='http://192.168.14.139:8080/demo/record/'> Pywb record! </a></p>
-        </section>
-		<section>
-		<h3>Webrecorder</h3>
-		<a href='https://www.webrecorder.io'> <img class="plain" height="100%" width="100%" src="images/webrecorder.png"> </a>
-        </section>
-		<section>
-		<h3>Squidwarc Installation</h3>
-		<script src="https://asciinema.org/a/ugbF6IhwZ5RKwfGblrgDdipWS.js" id="asciicast-ugbF6IhwZ5RKwfGblrgDdipWS" async></script>
-        </section>
-		<section>
-		<h3>Squidwarc Konfiguration</h3>
-		<script src="https://asciinema.org/a/PIM0eGpKdqG69eaSIhxDA6VjU.js" id="asciicast-PIM0eGpKdqG69eaSIhxDA6VjU" async></script>
-        </section>
-		<section>
-		<h3>Warcworker</h3>
-		<iframe data-src="http://192.168.14.139:5555/" width="1024" height="800"></iframe>	
-        </section>
-		
+	
 		<section>
 		<h3>Åtkomst</h3>
 		<table>
@@ -289,10 +232,6 @@
 		</tr>
 		</thead>
 		<tbody>
-		<tr>
-		<td><a href="https://github.com/iipc/openwayback/wiki">Open Wayback <a></td>
-		<td><a href="https://search.maven.org/search?q=g:org.netpreserve.openwayback%20AND%20a:openwayback-dist"><i class="fa fa-download"></i></a></td>
-		</tr>
 		<tr class='fragment'>
 		<td><a href="https://github.com/iipc/openwayback/wiki">Pywb <a></td>
 		<td></td>
@@ -308,7 +247,7 @@
 		<h1>FRÅGOR?</h1>
 		</section>
 		<section>
-		<h1>TACK</h1>
+		<h1>TACK FÖR MIG!</h1>
 		</section>
 		
 		
